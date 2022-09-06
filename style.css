@@ -67,15 +67,6 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -89,4 +80,28 @@ p {
 }
 .my-brand {
   font-weight: 900;
+  border-style: solid;
+  border-width: 2px;
+  opacity: 90%;
+  padding: 3px;
+}
+.project-place {
+  margin-bottom: 40px;
+}
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 32px;
+    padding-top: 25px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
 }
